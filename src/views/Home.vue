@@ -2,7 +2,7 @@
   <div class="home">
     <div class="container">
       <div class="row">
-        <div class="col-6">
+        <div class="col-lg-6 col-12">
           <div class="right">
             <div class="right--content">
               <div class="face" ref="printMe" id="my-node" style="{ backgroundColor: skinColor}">
@@ -48,7 +48,7 @@
         </div>
 
 
-        <div class="col-6">
+        <div class="col-lg-6 col-12">
           <div class="left">
             <div class="options">
 
@@ -57,7 +57,7 @@
 
                 <div class="next--content">
                   <div class="row">
-                    <div class="col-6">
+                    <div class="col-lg-6 col-8">
                       <H3 v-if="face[faceOptionsOpen].title === 'forehead'">
                         Hair style
                       </H3>
@@ -74,7 +74,7 @@
                         Mouth type
                       </H3>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-4">
                       <div class="close" @click="face[faceOptionsOpen].open = !face[faceOptionsOpen].open">
                         <svg xmlns="http://www.w3.org/2000/svg" width="19.857" height="19.857" viewBox="0 0 19.857 19.857">
                           <path id="close" d="M11.748,10.064,19.48,2.332A1.286,1.286,0,0,0,17.661.513L9.929,8.245,2.2.513A1.286,1.286,0,0,0,.377,2.332l7.732,7.732L.377,17.8A1.286,1.286,0,1,0,2.2,19.616l7.732-7.732,7.732,7.732A1.286,1.286,0,0,0,19.48,17.8Zm0,0" transform="translate(0 -0.136)" fill="#707070"/>
@@ -85,7 +85,7 @@
                 
                   <div class="list">
                     <div class="row">
-                      <div class="col-6" v-if="face[faceOptionsOpen].title === 'forehead'">
+                      <div class="col-lg-6 col-12" v-if="face[faceOptionsOpen].title === 'forehead'">
                         <div class="image" @click="face[faceOptionsOpen].SelectItem = null" :class="{ ItemActive: face[faceOptionsOpen].SelectItem === null }">
                           <img src="/images/null.png" alt="">
                         </div>
@@ -93,7 +93,7 @@
                           Nothing
                         </span>
                       </div>
-                      <div class="col-6" v-for="f in face[faceOptionsOpen].items" :key="f.id">
+                      <div class="col-lg-6 col-12" v-for="f in face[faceOptionsOpen].items" :key="f.id">
                         <span v-show="f.src">
                           <div class="image" @click="SelectFaceOptions(faceOptionsOpen, f.id)" :class="{ ItemActive: face[faceOptionsOpen].SelectItem === f.src }">
                               <img :src="'/images/'+f.preview" alt="">
@@ -156,7 +156,7 @@
                   </H2>
 
                   <div class="row">
-                    <div class="col-6" v-for="(n, i) in face.length" :key="i">
+                    <div class="col-md-6 col-12" v-for="(n, i) in face.length" :key="i">
                       <H3 v-if="face[i].title === 'forehead'">
                         Hair style
                       </H3>
@@ -224,7 +224,7 @@
                     Colors
                   </H2>
                   <div class="row">
-                    <div class="col-6">
+                    <div class="col-md-6 col-12">
                       <H3>
                         Skin color
                       </H3>
@@ -237,7 +237,7 @@
                         </ul>
                       </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6 col-12">
                       <H3>
                         Hair color
                       </H3>
@@ -258,7 +258,7 @@
                     Accessories
                   </H2>
                   <div class="row">
-                    <div class="col-6">
+                    <div class="col-md-6 col-12">
                       <H3>
                         For eyes
                       </H3>
@@ -307,7 +307,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6 col-12">
                       <H3>
                         Hats
                       </H3>
@@ -365,7 +365,7 @@
                   </H2>
 
                   <div class="row">
-                    <div class="col-6">
+                    <div class="col-md-6 col-12">
                       <H3>
                         Character name
                       </H3>
@@ -377,14 +377,14 @@
 
               <div class="options--bottom generate">
                 <div class="row">
-                  <div class="col-6">
+                  <div class="col-md-6 col-12">
                     <div class="logo">
                       <router-link to="/">
                           <img src="@/assets/images/logo.svg" alt="logo">
                       </router-link>
                     </div>
                   </div>
-                  <div class="col-6">
+                  <div class="col-md-6 col-12">
                     <ul>
                       <li>
                         <button class="btn__action btn__action--share">
@@ -817,11 +817,14 @@ export default {
       const el = this.$refs.printMe;
       const options = {
         type: 'dataURL',
-        useCORS: true,
-        allowTaint: true,
-        logging: false,
-        windowWidth: 1080,
-        windowHeight: 1080,
+        // useCORS: true,
+        // allowTaint: true,
+        // logging: false,
+        // width: 400,
+        // height: 400,
+        // windowWidth: 400,
+        // windowHeight: 400,
+        // scale: 2
       }
       this.output = await this.$html2canvas(el, options)
       const link = document.createElement('a')
