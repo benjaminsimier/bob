@@ -9,7 +9,7 @@
               </a>
             </li>
             <li>
-              <a href="http://#" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/benjaminsimier/bob" target="_blank" rel="noopener noreferrer">
                 Project on Github
               </a>
             </li>
