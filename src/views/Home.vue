@@ -11,13 +11,99 @@
 
                     <svg v-show="faceShape === 0" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
                       <g id="Groupe_79" data-name="Groupe 79" transform="translate(-4532 1278)">
-                        <ellipse id="Ellipse_19" data-name="Ellipse 19" cx="176" cy="227.5" rx="176" ry="227.5" transform="translate(4606 -1255)" :fill="skinColor"/>
+                        <path id="Tracé_1112" data-name="Tracé 1112" d="M176,0c97.2,0,176,99.841,176,223S273.2,446,176,446,0,346.159,0,223,78.8,0,176,0Z" transform="translate(4606 -1246)" :fill="skinColor"/>
                       </g>
                     </svg>
 
                     <svg v-show="faceShape === 1" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
                       <g id="Groupe_79" data-name="Groupe 79" transform="translate(-4532 1278)">
                         <path id="Tracé_1111" data-name="Tracé 1111" d="M176,0c97.2,0,176,89.53,176,199.97S273.2,445.749,176,445.749,0,310.411,0,199.97,78.8,0,176,0Z" transform="translate(4606 -1245.749)" :fill="skinColor"/>
+                      </g>
+                    </svg>
+
+                    <svg v-show="faceShape === 2" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+                      <g id="Groupe_79" data-name="Groupe 79" transform="translate(-4532 1278)">
+                        <rect id="Rectangle_27" data-name="Rectangle 27" width="500" height="500" transform="translate(4532 -1278)" fill="#fff"/>
+                        <g id="Groupe_121" data-name="Groupe 121" transform="translate(4238.928 -1634.988)">
+                          <path id="Tracé_1548" data-name="Tracé 1548" d="M683.161,557.812c24.471-28.754,49.33-63.649,59.812-30.06,24.473,78.415-54.375,145.073-70.687,112.4S683.161,557.812,683.161,557.812Z" transform="translate(0 0)" :fill="skinColor"/>
+                          <path id="Tracé_1549" data-name="Tracé 1549" d="M683.762,555.04c16.515-20.79,33.161-45.9,41.326-22.546,19.054,54.535-34.778,103.248-47.019,80.668S683.762,555.04,683.762,555.04Z" transform="translate(8.129 11.033)" fill="#ff895a"/>
+                        </g>
+                        <g id="Groupe_122" data-name="Groupe 122" transform="translate(4576 -1121)">
+                          <path id="Tracé_1548-2" data-name="Tracé 1548" d="M731.556,557.812c-24.471-28.754-49.33-63.649-59.812-30.06-24.473,78.415,54.375,145.073,70.687,112.4S731.556,557.812,731.556,557.812Z" transform="translate(-667.072 -513.988)" :fill="skinColor"/>
+                          <path id="Tracé_1549-2" data-name="Tracé 1549" d="M719.163,555.04c-16.515-20.79-33.161-45.9-41.326-22.546-19.054,54.534,34.778,103.248,47.019,80.668S719.163,555.04,719.163,555.04Z" transform="translate(-663.41 -502.955)" fill="#ff895a"/>
+                        </g>
+                        <path id="Tracé_1111" data-name="Tracé 1111" d="M176,0c97.2,0,176,89.53,176,199.97S273.2,445.749,176,445.749,0,310.411,0,199.97,78.8,0,176,0Z" transform="translate(4606 -1245.749)" :fill="skinColor"/>
+                      </g>
+                    </svg>
+
+                    <svg v-show="faceShape === 3" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+                      <g id="Groupe_79" data-name="Groupe 79" transform="translate(-4532 1278)">
+                        <rect id="Rectangle_27" data-name="Rectangle 27" width="500" height="500" transform="translate(4532 -1278)" fill="#fff"/>
+                        <g id="Groupe_121" data-name="Groupe 121" transform="translate(4238.928 -1634.988)">
+                          <path id="Tracé_1548" data-name="Tracé 1548" d="M683.161,557.812c24.471-28.754,49.33-63.649,59.812-30.06,24.473,78.415-54.375,145.073-70.687,112.4S683.161,557.812,683.161,557.812Z" transform="translate(0 0)" :fill="skinColor"/>
+                          <path id="Tracé_1549" data-name="Tracé 1549" d="M683.762,555.04c16.515-20.79,33.161-45.9,41.326-22.546,19.054,54.535-34.778,103.248-47.019,80.668S683.762,555.04,683.762,555.04Z" transform="translate(8.129 11.033)" fill="#ff895a"/>
+                        </g>
+                        <g id="Groupe_122" data-name="Groupe 122" transform="translate(4576 -1121)">
+                          <path id="Tracé_1548-2" data-name="Tracé 1548" d="M731.556,557.812c-24.471-28.754-49.33-63.649-59.812-30.06-24.473,78.415,54.375,145.073,70.687,112.4S731.556,557.812,731.556,557.812Z" transform="translate(-667.072 -513.988)" :fill="skinColor"/>
+                          <path id="Tracé_1549-2" data-name="Tracé 1549" d="M719.163,555.04c-16.515-20.79-33.161-45.9-41.326-22.546-19.054,54.534,34.778,103.248,47.019,80.668S719.163,555.04,719.163,555.04Z" transform="translate(-663.41 -502.955)" fill="#ff895a"/>
+                        </g>
+                        <path id="Tracé_1112" data-name="Tracé 1112" d="M176,0c97.2,0,176,99.841,176,223S273.2,446,176,446,0,346.159,0,223,78.8,0,176,0Z" transform="translate(4606 -1246)" :fill="skinColor"/>
+                      </g>
+                    </svg>
+
+                    <svg v-show="faceShape === 4" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+                      <g id="Groupe_79" data-name="Groupe 79" transform="translate(-4532 1278)">
+                        <path id="Tracé_1568" data-name="Tracé 1568" d="M944.851,425.658c-238.647,0-150.8,259.21-148.818,350.482,1.48,68.139,93.017,84.672,143.664,84.672,48.221,0,142.479-22.092,145.077-83.169C1090.077,652.9,1168.929,425.658,944.851,425.658Z" transform="translate(3841.44 -1660.813)" :fill="skinColor"/>
+                      </g>
+                    </svg>
+
+                    <svg v-show="faceShape === 5" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+                      <g id="Groupe_79" data-name="Groupe 79" transform="translate(-4532 1278)">
+                        <g id="Groupe_121" data-name="Groupe 121" transform="translate(4228.928 -1634.988)">
+                          <path id="Tracé_1548" data-name="Tracé 1548" d="M683.161,557.812c24.471-28.754,49.33-63.649,59.812-30.06,24.473,78.415-54.375,145.073-70.687,112.4S683.161,557.812,683.161,557.812Z" transform="translate(0 0)" :fill="skinColor"/>
+                          <path id="Tracé_1549" data-name="Tracé 1549" d="M683.762,555.04c16.515-20.79,33.161-45.9,41.326-22.546,19.054,54.535-34.778,103.248-47.019,80.668S683.762,555.04,683.762,555.04Z" transform="translate(8.129 11.033)" fill="#ff895a"/>
+                        </g>
+                        <g id="Groupe_122" data-name="Groupe 122" transform="translate(4586 -1121)">
+                          <path id="Tracé_1548-2" data-name="Tracé 1548" d="M731.556,557.812c-24.471-28.754-49.33-63.649-59.812-30.06-24.473,78.415,54.375,145.073,70.687,112.4S731.556,557.812,731.556,557.812Z" transform="translate(-667.072 -513.988)" :fill="skinColor"/>
+                          <path id="Tracé_1549-2" data-name="Tracé 1549" d="M719.163,555.04c-16.515-20.79-33.161-45.9-41.326-22.546-19.054,54.534,34.778,103.248,47.019,80.668S719.163,555.04,719.163,555.04Z" transform="translate(-663.41 -502.955)" fill="#ff895a"/>
+                        </g>
+                        <path id="Tracé_1568" data-name="Tracé 1568" d="M944.851,425.658c-238.647,0-150.8,259.21-148.818,350.482,1.48,68.139,93.017,84.672,143.664,84.672,48.221,0,142.479-22.092,145.077-83.169C1090.077,652.9,1168.929,425.658,944.851,425.658Z" transform="translate(3841.44 -1660.813)" :fill="skinColor"/>
+                      </g>
+                    </svg>
+
+                    <svg v-show="faceShape === 6" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+                      <g id="Groupe_79" data-name="Groupe 79" transform="translate(-4532 1278)">
+                        <g id="Groupe_131" data-name="Groupe 131" transform="translate(4431.625 -1288.002)">
+                          <path id="Tracé_1574" data-name="Tracé 1574" d="M43.561,0C67.62,0,87.123,25.534,87.123,57.033s-19.5,57.033-43.561,57.033S0,88.531,0,57.033,19.5,0,43.561,0Z" transform="translate(148.198 171.002)" :fill="skinColor"/>
+                          <ellipse id="Ellipse_20" data-name="Ellipse 20" cx="28.981" cy="37.943" rx="28.981" ry="37.943" transform="translate(162.778 190.092)" fill="#ff895a"/>
+                          <path id="Tracé_1573" data-name="Tracé 1573" d="M43.561,0C67.62,0,87.123,25.534,87.123,57.033s-19.5,57.033-43.561,57.033S0,88.531,0,57.033,19.5,0,43.561,0Z" transform="translate(465.431 171.002)" :fill="skinColor"/>
+                          <path id="Tracé_1575" data-name="Tracé 1575" d="M28.981,0C44.986,0,57.961,16.988,57.961,37.943S44.986,75.885,28.981,75.885,0,58.9,0,37.943,12.975,0,28.981,0Z" transform="translate(480.012 190.092)" fill="#ff895a"/>
+                        </g>
+                        <path id="Tracé_1568" data-name="Tracé 1568" d="M944.851,425.658c-238.647,0-150.8,259.21-148.818,350.482,1.48,68.139,93.017,84.672,143.664,84.672,48.221,0,142.479-22.092,145.077-83.169C1090.077,652.9,1168.929,425.658,944.851,425.658Z" transform="translate(3841.44 -1660.813)" :fill="skinColor"/>
+                      </g>
+                    </svg>
+
+                    <svg v-show="faceShape === 7" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+                      <g id="Groupe_79" data-name="Groupe 79" transform="translate(-4532 1278)">
+                        <g id="Groupe_131" data-name="Groupe 131" transform="translate(4431.625 -1288.002)">
+                          <path id="Tracé_1574" data-name="Tracé 1574" d="M43.561,0C67.62,0,87.123,25.534,87.123,57.033s-19.5,57.033-43.561,57.033S0,88.531,0,57.033,19.5,0,43.561,0Z" transform="translate(148.198 171.002)" :fill="skinColor"/>
+                          <ellipse id="Ellipse_20" data-name="Ellipse 20" cx="28.981" cy="37.943" rx="28.981" ry="37.943" transform="translate(162.778 190.092)" fill="#ff895a"/>
+                          <path id="Tracé_1573" data-name="Tracé 1573" d="M43.561,0C67.62,0,87.123,25.534,87.123,57.033s-19.5,57.033-43.561,57.033S0,88.531,0,57.033,19.5,0,43.561,0Z" transform="translate(465.431 171.002)" :fill="skinColor"/>
+                          <path id="Tracé_1575" data-name="Tracé 1575" d="M28.981,0C44.986,0,57.961,16.988,57.961,37.943S44.986,75.885,28.981,75.885,0,58.9,0,37.943,12.975,0,28.981,0Z" transform="translate(480.012 190.092)" fill="#ff895a"/>
+                        </g>
+                        <path id="Tracé_1111" data-name="Tracé 1111" d="M176,0c97.2,0,176,89.53,176,199.97S273.2,445.749,176,445.749,0,310.411,0,199.97,78.8,0,176,0Z" transform="translate(4606 -1245.749)" :fill="skinColor"/>
+                      </g>
+                    </svg>
+
+                    <svg v-show="faceShape === 8" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+                      <g id="Groupe_79" data-name="Groupe 79" transform="translate(-4532 1278)">
+                        <g id="Groupe_131" data-name="Groupe 131" transform="translate(4431.625 -1288.002)">
+                          <path id="Tracé_1574" data-name="Tracé 1574" d="M43.561,0C67.62,0,87.123,25.534,87.123,57.033s-19.5,57.033-43.561,57.033S0,88.531,0,57.033,19.5,0,43.561,0Z" transform="translate(148.198 171.002)" :fill="skinColor"/>
+                          <ellipse id="Ellipse_20" data-name="Ellipse 20" cx="28.981" cy="37.943" rx="28.981" ry="37.943" transform="translate(162.778 190.092)" fill="#ff895a"/>
+                          <path id="Tracé_1573" data-name="Tracé 1573" d="M43.561,0C67.62,0,87.123,25.534,87.123,57.033s-19.5,57.033-43.561,57.033S0,88.531,0,57.033,19.5,0,43.561,0Z" transform="translate(465.431 171.002)" :fill="skinColor"/>
+                          <path id="Tracé_1575" data-name="Tracé 1575" d="M28.981,0C44.986,0,57.961,16.988,57.961,37.943S44.986,75.885,28.981,75.885,0,58.9,0,37.943,12.975,0,28.981,0Z" transform="translate(480.012 190.092)" fill="#ff895a"/>
+                        </g>
+                        <path id="Tracé_1112" data-name="Tracé 1112" d="M176,0c97.2,0,176,99.841,176,223S273.2,446,176,446,0,346.159,0,223,78.8,0,176,0Z" transform="translate(4606 -1246)" :fill="skinColor"/>
                       </g>
                     </svg>
 
@@ -56,29 +142,31 @@
               <div class="next--open" v-show="face[faceOptionsOpen].open">
 
                 <div class="next--content">
-                  <div class="row">
-                    <div class="col-lg-6 col-8">
-                      <H3 v-if="face[faceOptionsOpen].title === 'forehead'">
-                        Hair style
-                      </H3>
+                  <div class="topContent">
+                    <div class="row">
+                      <div class="col-lg-6 col-8">
+                        <H3 v-if="face[faceOptionsOpen].title === 'forehead'">
+                          Hair style
+                        </H3>
 
-                      <H3 v-if="face[faceOptionsOpen].title === 'nose'">
-                        Nose type
-                      </H3>
+                        <H3 v-if="face[faceOptionsOpen].title === 'nose'">
+                          Nose type
+                        </H3>
 
-                      <H3 v-if="face[faceOptionsOpen].title === 'eyes'">
-                        Eyes type
-                      </H3>
+                        <H3 v-if="face[faceOptionsOpen].title === 'eyes'">
+                          Eyes type
+                        </H3>
 
-                      <H3 v-if="face[faceOptionsOpen].title === 'mouth'">
-                        Mouth type
-                      </H3>
-                    </div>
-                    <div class="col-lg-6 col-4">
-                      <div class="close" @click="face[faceOptionsOpen].open = !face[faceOptionsOpen].open">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="19.857" height="19.857" viewBox="0 0 19.857 19.857">
-                          <path id="close" d="M11.748,10.064,19.48,2.332A1.286,1.286,0,0,0,17.661.513L9.929,8.245,2.2.513A1.286,1.286,0,0,0,.377,2.332l7.732,7.732L.377,17.8A1.286,1.286,0,1,0,2.2,19.616l7.732-7.732,7.732,7.732A1.286,1.286,0,0,0,19.48,17.8Zm0,0" transform="translate(0 -0.136)" fill="#707070"/>
-                        </svg>
+                        <H3 v-if="face[faceOptionsOpen].title === 'mouth'">
+                          Mouth type
+                        </H3>
+                      </div>
+                      <div class="col-lg-6 col-4">
+                        <div class="close" @click="face[faceOptionsOpen].open = !face[faceOptionsOpen].open">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="19.857" height="19.857" viewBox="0 0 19.857 19.857">
+                            <path id="close" d="M11.748,10.064,19.48,2.332A1.286,1.286,0,0,0,17.661.513L9.929,8.245,2.2.513A1.286,1.286,0,0,0,.377,2.332l7.732,7.732L.377,17.8A1.286,1.286,0,1,0,2.2,19.616l7.732-7.732,7.732,7.732A1.286,1.286,0,0,0,19.48,17.8Zm0,0" transform="translate(0 -0.136)" fill="#707070"/>
+                          </svg>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -116,17 +204,19 @@
 
               <div class="next--open" v-show="faceShapeOptionsOpen">
                 <div class="next--content">
-                  <div class="row">
-                    <div class="col-6">
-                      <H3>
-                        Face Shape
-                      </H3>
-                    </div>
-                    <div class="col-6">
-                      <div class="close" @click="faceShapeOptionsOpen = !faceShapeOptionsOpen">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="19.857" height="19.857" viewBox="0 0 19.857 19.857">
-                          <path id="close" d="M11.748,10.064,19.48,2.332A1.286,1.286,0,0,0,17.661.513L9.929,8.245,2.2.513A1.286,1.286,0,0,0,.377,2.332l7.732,7.732L.377,17.8A1.286,1.286,0,1,0,2.2,19.616l7.732-7.732,7.732,7.732A1.286,1.286,0,0,0,19.48,17.8Zm0,0" transform="translate(0 -0.136)" fill="#707070"/>
-                        </svg>
+                  <div class="topContent">
+                    <div class="row">
+                      <div class="col-6">
+                        <H3>
+                          Face Shape
+                        </H3>
+                      </div>
+                      <div class="col-6">
+                        <div class="close" @click="faceShapeOptionsOpen = !faceShapeOptionsOpen">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="19.857" height="19.857" viewBox="0 0 19.857 19.857">
+                            <path id="close" d="M11.748,10.064,19.48,2.332A1.286,1.286,0,0,0,17.661.513L9.929,8.245,2.2.513A1.286,1.286,0,0,0,.377,2.332l7.732,7.732L.377,17.8A1.286,1.286,0,1,0,2.2,19.616l7.732-7.732,7.732,7.732A1.286,1.286,0,0,0,19.48,17.8Zm0,0" transform="translate(0 -0.136)" fill="#707070"/>
+                          </svg>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -448,6 +538,30 @@ export default {
               src: 'face/forehead/forehead_1.png',
               preview: 'preview/forehead/forehead_1.png'
             },
+            {
+              id: 3,
+              title: 'Hair 1',
+              src: 'face/forehead/forehead_2.svg',
+              preview: 'preview/forehead/forehead_2.svg'
+            },
+            {
+              id: 4,
+              title: 'Hair 2',
+              src: 'face/forehead/forehead_3.svg',
+              preview: 'preview/forehead/forehead_3.svg'
+            },
+            {
+              id: 5,
+              title: 'Hair 3',
+              src: 'face/forehead/forehead_4.svg',
+              preview: 'preview/forehead/forehead_4.svg'
+            },
+            {
+              id: 6,
+              title: 'Hair 4',
+              src: 'face/forehead/forehead_5.svg',
+              preview: 'preview/forehead/forehead_5.svg'
+            },
           ],
           SelectItem: null
         },
@@ -474,6 +588,102 @@ export default {
               src: 'face/eyes/eyes_3.png',
               preview: 'preview/eyes/eyes_3.png'
             },
+            {
+              id: 4,
+              title: 'Eye 4',
+              src: 'face/eyes/eyes_4.svg',
+              preview: 'preview/eyes/eyes_4.svg'
+            },
+            {
+              id: 5,
+              title: 'Eye 5',
+              src: 'face/eyes/eyes_5.svg',
+              preview: 'preview/eyes/eyes_5.svg'
+            },
+            {
+              id: 6,
+              title: 'Eye 6',
+              src: 'face/eyes/eyes_6.svg',
+              preview: 'preview/eyes/eyes_6.svg'
+            },
+            {
+              id: 7,
+              title: 'Eye 7',
+              src: 'face/eyes/eyes_7.svg',
+              preview: 'preview/eyes/eyes_7.svg'
+            },
+            {
+              id: 8,
+              title: 'Eye 8',
+              src: 'face/eyes/eyes_8.svg',
+              preview: 'preview/eyes/eyes_8.svg'
+            },
+            {
+              id: 9,
+              title: 'Eye 9',
+              src: 'face/eyes/eyes_9.svg',
+              preview: 'preview/eyes/eyes_9.svg'
+            },
+            {
+              id: 10,
+              title: 'Eye 10',
+              src: 'face/eyes/eyes_10.svg',
+              preview: 'preview/eyes/eyes_10.svg'
+            },
+            {
+              id: 11,
+              title: 'Eye 11',
+              src: 'face/eyes/eyes_11.svg',
+              preview: 'preview/eyes/eyes_11.svg'
+            },
+            {
+              id: 12,
+              title: 'Eye 12',
+              src: 'face/eyes/eyes_12.svg',
+              preview: 'preview/eyes/eyes_12.svg'
+            },
+            {
+              id: 13,
+              title: 'Eye 13',
+              src: 'face/eyes/eyes_13.svg',
+              preview: 'preview/eyes/eyes_13.svg'
+            },
+            {
+              id: 14,
+              title: 'Eye 14',
+              src: 'face/eyes/eyes_14.svg',
+              preview: 'preview/eyes/eyes_14.svg'
+            },
+            {
+              id: 15,
+              title: 'Eye 15',
+              src: 'face/eyes/eyes_15.svg',
+              preview: 'preview/eyes/eyes_15.svg'
+            },
+            {
+              id: 16,
+              title: 'Eye 16',
+              src: 'face/eyes/eyes_16.svg',
+              preview: 'preview/eyes/eyes_16.svg'
+            },
+            {
+              id: 17,
+              title: 'Eye 17',
+              src: 'face/eyes/eyes_17.svg',
+              preview: 'preview/eyes/eyes_17.svg'
+            },
+            {
+              id: 18,
+              title: 'Eye 18',
+              src: 'face/eyes/eyes_18.svg',
+              preview: 'preview/eyes/eyes_18.svg'
+            },
+            {
+              id: 19,
+              title: 'Eye 19',
+              src: 'face/eyes/eyes_19.svg',
+              preview: 'preview/eyes/eyes_19.svg'
+            },
           ],
           SelectItem: null
         },
@@ -493,6 +703,18 @@ export default {
               title: 'Big nose',
               src: 'face/nose/nose_2.png',
               preview: 'preview/nose/nose_2.png'
+            },
+            {
+              id: 3,
+              title: 'Nose 2',
+              src: 'face/nose/nose_3.svg',
+              preview: 'preview/nose/nose_3.svg'
+            },
+            {
+              id: 4,
+              title: 'Nose 3',
+              src: 'face/nose/nose_4.svg',
+              preview: 'preview/nose/nose_4.svg'
             },
           ],
           SelectItem: null
@@ -526,6 +748,54 @@ export default {
               src: 'face/mouth/mouth_4.png',
               preview: 'preview/mouth/mouth_4.png'
             },
+            {
+              id: 5,
+              title: 'Mouth 5',
+              src: 'face/mouth/mouth_5.png',
+              preview: 'preview/mouth/mouth_5.png'
+            },
+            {
+              id: 6,
+              title: 'Mouth 6',
+              src: 'face/mouth/mouth_6.png',
+              preview: 'preview/mouth/mouth_6.png'
+            },
+            {
+              id: 7,
+              title: 'Mouth 7',
+              src: 'face/mouth/mouth_7.svg',
+              preview: 'preview/mouth/mouth_7.svg'
+            },
+            {
+              id: 8,
+              title: 'Mouth 8',
+              src: 'face/mouth/mouth_8.svg',
+              preview: 'preview/mouth/mouth_8.svg'
+            },
+            {
+              id: 9,
+              title: 'Mouth 9',
+              src: 'face/mouth/mouth_9.svg',
+              preview: 'preview/mouth/mouth_9.svg'
+            },
+            {
+              id: 10,
+              title: 'Mouth 10',
+              src: 'face/mouth/mouth_10.svg',
+              preview: 'preview/mouth/mouth_10.svg'
+            },
+            {
+              id: 11,
+              title: 'Mouth 11',
+              src: 'face/mouth/mouth_11.svg',
+              preview: 'preview/mouth/mouth_11.svg'
+            },
+            {
+              id: 12,
+              title: 'Mouth 12',
+              src: 'face/mouth/mouth_12.svg',
+              preview: 'preview/mouth/mouth_12.svg'
+            },
           ],
           SelectItem: null
         },
@@ -546,6 +816,16 @@ export default {
               id: 2,
               title: 'Sunglasses',
               src: '/accessories/glasses_2.png'
+            },
+            {
+              id: 3,
+              title: 'Round glasses',
+              src: '/accessories/glasses_3.svg'
+            },
+            {
+              id: 4,
+              title: 'Cucumber',
+              src: '/accessories/cucumber.svg'
             },
           ],
           SelectItem: null
@@ -741,6 +1021,41 @@ export default {
           id: 1,
           title: 'Forme 2',
           preview: 'preview/shapes/shape_2.png'
+        },
+        {
+          id: 2,
+          title: 'Forme 3',
+          preview: 'preview/shapes/shape_3.svg'
+        },
+        {
+          id: 3,
+          title: 'Forme 4',
+          preview: 'preview/shapes/shape_4.svg'
+        },
+        {
+          id: 4,
+          title: 'Forme 5',
+          preview: 'preview/shapes/shape_5.svg'
+        },
+        {
+          id: 5,
+          title: 'Forme 6',
+          preview: 'preview/shapes/shape_6.svg'
+        },
+        {
+          id: 6,
+          title: 'Forme 7',
+          preview: 'preview/shapes/shape_7.svg'
+        },
+        {
+          id: 7,
+          title: 'Forme 8',
+          preview: 'preview/shapes/shape_8.svg'
+        },
+        {
+          id: 8,
+          title: 'Forme 9',
+          preview: 'preview/shapes/shape_9.svg'
         },
       ]
 
